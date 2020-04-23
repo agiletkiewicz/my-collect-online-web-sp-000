@@ -4,6 +4,7 @@ def my_collect(array)
     new_collection=[]
     while i < array.length 
     yield(array[i])
+    new_collection << array[i]
     end
   else puts "No block!"
   end
